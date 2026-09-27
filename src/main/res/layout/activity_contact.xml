@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/cream">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="64dp"
+        android:paddingStart="18dp" android:paddingEnd="10dp" android:gravity="center_vertical"
+        android:background="@color/white">
+        <ImageView android:layout_width="38dp" android:layout_height="38dp"
+            android:src="@drawable/ic_paw" android:contentDescription="Paw logo"/>
+        <TextView android:id="@+id/titleText" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:layout_marginStart="10dp" android:text="Contact &amp; Venues"
+            android:textColor="@color/dark_text" android:textSize="20sp" android:textStyle="bold"/>
+        <ImageButton android:id="@+id/menuButton" android:layout_width="48dp" android:layout_height="48dp"
+            android:background="@android:color/transparent" android:src="@android:drawable/ic_menu_more"
+            android:contentDescription="Open menu"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:id="@+id/contentLayout" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="Pawsitive Pet Academy" android:textSize="26sp" android:textStyle="bold" android:textColor="@color/dark_text"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="For course enquiries and future bookings, please contact the academy."
+    android:textSize="16sp" android:textColor="@color/muted_text" android:layout_marginTop="6dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="Phone: 000 000 0000\nEmail: info@pawsitivepetacademy.co.za"
+    android:textSize="16sp" android:textColor="@color/dark_text" android:layout_marginTop="18dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="Durban Training Venues" android:textSize="21sp" android:textStyle="bold"
+    android:textColor="@color/dark_text" android:layout_marginTop="26dp"/>
+<Button android:id="@+id/umhlangaButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="Directions: Umhlanga Training Centre" android:textColor="@color/blue_dark" android:background="@drawable/button_secondary" android:layout_marginTop="10dp"/>
+<Button android:id="@+id/bereaButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="Directions: Berea Learning Hub" android:textColor="@color/blue_dark" android:background="@drawable/button_secondary" android:layout_marginTop="10dp"/>
+<Button android:id="@+id/pinetownButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="Directions: Pinetown Skills Studio" android:textColor="@color/blue_dark" android:background="@drawable/button_secondary" android:layout_marginTop="10dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="Note: exact venue addresses still need to be supplied by the client."
+    android:textSize="13sp" android:textColor="@color/muted_text" android:layout_marginTop="18dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.PawsitivePetAcademy" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="android:navigationBarColor">@color/cream</item>
+        <item name="android:statusBarColor">@color/blue_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

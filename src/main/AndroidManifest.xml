@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:allowBackup="true" android:label="Pawsitive Pet Academy"
+        android:icon="@drawable/ic_paw" android:theme="@style/Theme.PawsitivePetAcademy">
+        <activity android:name=".ContactActivity" android:exported="false"/>
+        <activity android:name=".CalculatorActivity" android:exported="false"/>
+        <activity android:name=".CourseDetailActivity" android:exported="false"/>
+        <activity android:name=".SixWeekActivity" android:exported="false"/>
+        <activity android:name=".SixMonthActivity" android:exported="false"/>
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

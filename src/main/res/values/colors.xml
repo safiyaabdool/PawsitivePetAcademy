@@ -1,0 +1,11 @@
+<resources>
+    <color name="blue">#5B8DEF</color>
+    <color name="blue_dark">#3159A6</color>
+    <color name="green">#5FAF82</color>
+    <color name="coral">#F28C72</color>
+    <color name="cream">#F8FBFF</color>
+    <color name="dark_text">#263238</color>
+    <color name="muted_text">#667085</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_blue">#EAF2FF</color>
+</resources>

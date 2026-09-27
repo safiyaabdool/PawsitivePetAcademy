@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/drawable_button_secondary.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/drawable/button_secondary.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/drawable_button_primary.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/drawable/button_primary.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/layout_activity_six_month.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/layout/activity_six_month.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/drawable_bg_gradient.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/drawable_card_background.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/drawable/card_background.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/layout_activity_calculator.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/layout/activity_calculator.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/layout_activity_six_week.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/layout/activity_six_week.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/layout_activity_contact.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/layout_activity_course_detail.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/layout/activity_course_detail.xml"
+    },
+    {
+        "merged": "com.example.pawsitivepetacademy-debug-32:/drawable_ic_paw.xml.flat",
+        "source": "com.example.pawsitivepetacademy-main-34:/drawable/ic_paw.xml"
+    }
+]

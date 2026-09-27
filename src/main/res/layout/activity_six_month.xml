@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/cream">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="64dp"
+        android:paddingStart="18dp" android:paddingEnd="10dp" android:gravity="center_vertical"
+        android:background="@color/white">
+        <ImageView android:layout_width="38dp" android:layout_height="38dp"
+            android:src="@drawable/ic_paw" android:contentDescription="Paw logo"/>
+        <TextView android:id="@+id/titleText" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:layout_marginStart="10dp" android:text="Six-Month Courses"
+            android:textColor="@color/dark_text" android:textSize="20sp" android:textStyle="bold"/>
+        <ImageButton android:id="@+id/menuButton" android:layout_width="48dp" android:layout_height="48dp"
+            android:background="@android:color/transparent" android:src="@android:drawable/ic_menu_more"
+            android:contentDescription="Open menu"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:id="@+id/contentLayout" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Professional development programmes for deeper pet-care knowledge and career preparation." android:textSize="16sp" android:textColor="@color/muted_text" android:layout_marginBottom="18dp"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/card_background" android:layout_marginBottom="14dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Canine Obedience Training" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/dark_text"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="R1,500 • 6 months" android:textSize="15sp" android:textColor="@color/green" android:layout_marginTop="5dp"/>
+    <Button android:id="@+id/canineButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="View Course Details" android:textColor="@color/white"
+        android:background="@drawable/button_primary" android:layout_marginTop="10dp"/>
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/card_background" android:layout_marginBottom="14dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Pet Grooming" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/dark_text"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="R1,500 • 6 months" android:textSize="15sp" android:textColor="@color/green" android:layout_marginTop="5dp"/>
+    <Button android:id="@+id/groomingButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="View Course Details" android:textColor="@color/white"
+        android:background="@drawable/button_primary" android:layout_marginTop="10dp"/>
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/card_background" android:layout_marginBottom="14dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Animal Behaviour" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/dark_text"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="R1,500 • 6 months" android:textSize="15sp" android:textColor="@color/green" android:layout_marginTop="5dp"/>
+    <Button android:id="@+id/behaviourButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="View Course Details" android:textColor="@color/white"
+        android:background="@drawable/button_primary" android:layout_marginTop="10dp"/>
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/card_background" android:layout_marginBottom="14dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Pet Business Management" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/dark_text"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="R1,500 • 6 months" android:textSize="15sp" android:textColor="@color/green" android:layout_marginTop="5dp"/>
+    <Button android:id="@+id/businessButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="View Course Details" android:textColor="@color/white"
+        android:background="@drawable/button_primary" android:layout_marginTop="10dp"/>
+</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
